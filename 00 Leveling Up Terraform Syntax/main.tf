@@ -13,8 +13,16 @@ variable "dangers" {
   type = list
 }
 
+# count approach
 resource "local_file" "count" {
     count = length(var.dangers)
     filename = "./${var.dangers[count.index]}.txt"
     content = "${var.dangers[count.index]}, oh my!"
 }
+
+# for_each approach
+# resource "local_file" "for_each" {
+#     for_each = toset(var.dangers)
+#     filename = "./${each.value}.txt"
+#     content = "${each.value}, oh my!"
+# }

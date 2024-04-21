@@ -1,9 +1,3 @@
-202404091325
-
-Status: #notes
-
-Tags: [[Cloud Computing MOC]]
-
 ## Understanding the `terraform` block
 
 ### Anatomy of a `terraform` Block

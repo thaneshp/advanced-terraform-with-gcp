@@ -8,8 +8,6 @@
 
 ## Creating a Reusable Module
 
-[Example](../02%20Terraform%20with%20Continuous%20Integration/reusable-module-example/)
-
 ### Architecture Overview
 
 ```bash
@@ -48,3 +46,5 @@
 └── dev
     ├── main.tf
 ```
+
+[Example](../02%20Terraform%20with%20Continuous%20Integration/reusable-module-example/)

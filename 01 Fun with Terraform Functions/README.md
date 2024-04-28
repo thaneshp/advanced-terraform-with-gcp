@@ -156,7 +156,7 @@ The `formatdate` function converts a timestamp into a different format.
 
 Map data into template files to structure data using the `templatefile` function.
 
-See files for example.
+[Example](../01%20Fun%20with%20Terraform%20Functions/template-files-example/)
 
 ## Managing Data Types in Terraform Code
 
@@ -192,3 +192,5 @@ local {
 	port_num = tonumber(local.port_string)
 }
 ```
+
+[Example](../01%20Fun%20with%20Terraform%20Functions/validation-examples/)

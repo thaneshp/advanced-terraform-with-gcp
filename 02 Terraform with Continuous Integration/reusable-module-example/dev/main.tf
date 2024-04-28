@@ -1,6 +1,6 @@
 terraform {
   required_version = ">= 1.0.11"
-  
+
   required_providers {
     google = {
       source  = "hashicorp/google"
@@ -10,7 +10,7 @@ terraform {
 
   backend "gcs" {
       bucket = ""
-      prefix = "terraform/main"
+      prefix = "terraform/dev"
   }
 }
 
@@ -18,8 +18,8 @@ provider "google" {
   project = "my-first-project"
 }
 
-module "main_cluster" {
+module "dev_cluster" {
     source = "../modules/gke"
-    name = "main-cluster"
+    name = "dev-cluster"
     machine_type = "g1-small"
 }

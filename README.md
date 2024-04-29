@@ -1,0 +1,1 @@
+This repo contains some notes from the [Advanced Terraform with GCP Course by A Cloud Guru](https://www.pluralsight.com/cloud-guru/courses/advanced-terraform-with-gcp).
